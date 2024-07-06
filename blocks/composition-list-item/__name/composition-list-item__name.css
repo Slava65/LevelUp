@@ -1,0 +1,10 @@
+.composition-list-item__name {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-family: 'Inter', ‘Arial’, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+}

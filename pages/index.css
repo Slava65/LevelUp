@@ -10,3 +10,7 @@
 @import url("../blocks/video/video.css");
 @import url("../blocks/composition/composition.css");
 @import url("../blocks/picture/picture.css");
+@import url("../blocks/composition-list/composition-list.css");
+@import url("../blocks/composition-list-item/composition-list-item.css");
+@import url("../blocks/composition-picture-container/composition-picture-container.css");
+@import url("../blocks/line/line.css");

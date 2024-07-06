@@ -1,0 +1,7 @@
+@import url("/blocks/composition-list-item/__container/composition-list-item__container.css");
+@import url("/blocks/composition-list-item/__picture/composition-list-item__picture.css");
+@import url("/blocks/composition-list-item/__name/composition-list-item__name.css");
+
+.composition-list-item {
+
+}

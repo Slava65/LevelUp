@@ -1,4 +1,7 @@
 .composition {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 50px;
+    min-height: 1000px;
+    background: linear-gradient(to bottom right, rgb(245, 201, 56), rgb(172, 224, 123), rgb(241, 66, 229));
 }

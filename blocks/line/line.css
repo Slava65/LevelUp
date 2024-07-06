@@ -1,0 +1,9 @@
+.line {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    width: 150px;
+    border-width: 3px;
+    border-color: rgb(241, 66, 229);
+    align-self: center;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,7 @@
+.composition-picture-container {
+    min-height: 640px;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
