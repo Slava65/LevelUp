@@ -1,0 +1,9 @@
+@import url("__item/advantages__item.css");
+@import url("__list/advantages__list.css");
+
+.advantages {
+    width: calc(50% - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

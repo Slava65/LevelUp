@@ -1,0 +1,15 @@
+.order {
+    padding-block: 0;
+    padding-inline: 0;
+    width: 400px;
+    height: 40px;
+    border-radius: 7px;
+    border-width: 1px;
+    align-self: center;
+    border-color: rgb(147, 70, 206);
+    background-color: rgb(172, 224, 123);
+    font-family: 'Inter', ‘Arial’, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
