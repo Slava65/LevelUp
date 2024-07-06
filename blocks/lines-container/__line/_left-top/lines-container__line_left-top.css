@@ -1,0 +1,9 @@
+.lines-container__line_left-top {
+  position: relative;
+  top: -240px;
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}

@@ -13,13 +13,10 @@
       </header>
       <main class="content">
         <section class="promo">
-          <video
-            class="video"
-            type="video/webm"
-            src="./video/thumb-up.mp4"
-            loop
-            autoplay
-          ></video>
+          <video class="video" width="1280px" playsinline autoplay muted loop>
+            <source src="video/thumb-up.mp4" type="video/mp4"/>
+            <source src="video/thumb-up.webm" type="video/webm" />
+          </video>
           <div class="photo-container">
             <img class="photo-container__item" src="./images/prod.png" />
           </div>
@@ -52,7 +49,7 @@
             <li>
               <div class="composition-list-item__container">
                 <img
-                  src="/images/svekla.jpg"
+                  src="./images/svekla.jpg"
                   class="composition-list-item__picture"
                 />
                 <p class="composition-list-item__name">Свекла</p>
@@ -68,12 +65,24 @@
               </div>
             </li>
           </ul>
-          <hr class="line">
+          <div class="lines-container">
+            <hr class="lines-container__line lines-container__line_left-top" />
+            <hr class="lines-container__line" />
+            <hr
+              class="lines-container__line lines-container__line_left-bottom"
+            />
+          </div>
           <div class="composition-picture-container">
             <img class="picture" src="./images/prod_mini.png" />
-            <button class="order order_composition" >Заказать</button>
+            <button class="order order_composition">Заказать</button>
           </div>
-          <hr class="line">
+          <div class="lines-container">
+            <hr class="lines-container__line lines-container__line_right-top" />
+            <hr class="lines-container__line" />
+            <hr
+              class="lines-container__line lines-container__line_right-bottom"
+            />
+          </div>
           <ul class="composition-list">
             <li>
               <div class="composition-list-item__container">
@@ -96,13 +105,74 @@
             <li>
               <div class="composition-list-item__container">
                 <img
-                  src="/images/smetana.webp"
+                  src="./images/smetana.webp"
                   class="composition-list-item__picture"
                 />
                 <p class="composition-list-item__name">Сметана</p>
               </div>
             </li>
           </ul>
+        </section>
+        <section class="carousel" aria-label="Gallery">
+          <ol class="carousel__viewport">
+            <li id="carousel__slide1"
+                tabindex="0"
+                class="carousel__slide">
+              <div class="carousel__snapper">
+                <a href="#carousel__slide4"
+                   class="carousel__prev">Go to last slide</a>
+                <a href="#carousel__slide2"
+                   class="carousel__next">Go to next slide</a>
+              </div>
+            </li>
+            <li id="carousel__slide2"
+                tabindex="0"
+                class="carousel__slide">
+              <div class="carousel__snapper"></div>
+              <a href="#carousel__slide1"
+                 class="carousel__prev">Go to previous slide</a>
+              <a href="#carousel__slide3"
+                 class="carousel__next">Go to next slide</a>
+            </li>
+            <li id="carousel__slide3"
+                tabindex="0"
+                class="carousel__slide">
+              <div class="carousel__snapper"></div>
+              <a href="#carousel__slide2"
+                 class="carousel__prev">Go to previous slide</a>
+              <a href="#carousel__slide4"
+                 class="carousel__next">Go to next slide</a>
+            </li>
+            <li id="carousel__slide4"
+                tabindex="0"
+                class="carousel__slide">
+              <div class="carousel__snapper"></div>
+              <a href="#carousel__slide3"
+                 class="carousel__prev">Go to previous slide</a>
+              <a href="#carousel__slide1"
+                 class="carousel__next">Go to first slide</a>
+            </li>
+          </ol>
+          <aside class="carousel__navigation">
+            <ol class="carousel__navigation-list">
+              <li class="carousel__navigation-item">
+                <a href="#carousel__slide1"
+                   class="carousel__navigation-button">Go to slide 1</a>
+              </li>
+              <li class="carousel__navigation-item">
+                <a href="#carousel__slide2"
+                   class="carousel__navigation-button">Go to slide 2</a>
+              </li>
+              <li class="carousel__navigation-item">
+                <a href="#carousel__slide3"
+                   class="carousel__navigation-button">Go to slide 3</a>
+              </li>
+              <li class="carousel__navigation-item">
+                <a href="#carousel__slide4"
+                   class="carousel__navigation-button">Go to slide 4</a>
+              </li>
+            </ol>
+          </aside>
         </section>
       </main>
       <footer class="footer"></footer>

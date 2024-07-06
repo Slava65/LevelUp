@@ -1,0 +1,12 @@
+@import url("_left-top/lines-container__line_left-top.css");
+@import url("_left-bottom/lines-container__line_left-bottom.css");
+@import url("_right-top/lines-container__line_right-top.css");
+@import url("_right-bottom/lines-container__line_right-bottom.css");
+
+.lines-container__line {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    width: 150px;
+    border-width: 3px;
+    border-color: rgb(241, 66, 229);
+}
