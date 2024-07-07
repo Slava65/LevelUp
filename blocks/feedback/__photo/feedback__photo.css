@@ -1,0 +1,7 @@
+.feedback__photo {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}

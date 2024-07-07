@@ -1,0 +1,13 @@
+@import url("__photo/feedback__photo.css");
+@import url("__name/feedback__name.css");
+@import url("__text/feedback__text.css");
+@import url("__photo-container/feedback__photo-container.css");
+
+.feedback {
+    width: 100%; 
+    /* min-height: 700px; */
+    display: flex;  
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}

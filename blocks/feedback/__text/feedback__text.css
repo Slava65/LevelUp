@@ -1,0 +1,11 @@
+.feedback__text {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-family: 'Inter', ‘Arial’, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 22px;
+    min-height: 200px;
+    padding: 0 20px;
+}
