@@ -1,0 +1,17 @@
+.lastpromo__advantages {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: 1;
+    column-gap: 40px;
+    justify-content: space-between;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    list-style: square;
+    padding-inline-start: 0;
+    padding: 0 20px;
+
+}

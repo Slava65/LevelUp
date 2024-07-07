@@ -1,4 +1,6 @@
 @import url("_composition/order_composition.css");
+@import url("_lastpromo/order_lastpromo.css");
+
 
 .order {
     padding-block: 0;
