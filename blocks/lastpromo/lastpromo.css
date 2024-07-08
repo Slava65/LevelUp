@@ -4,26 +4,55 @@
 @import url("__photo/lastpromo__photo.css");
 
 .lastpromo {
-    width: 100%;
-    display: grid;
-    grid-template-columns: calc(50%-5px) calc(50%-5px);
-    grid-template-rows: auto;
-    row-gap: 50px;
-    column-gap: 20px;
-    margin-bottom: 20px;
-    background: linear-gradient(45deg,rgb(245, 201, 56), rgb(172, 224, 123), rgb(241, 66, 229));
-    background-size: 200%;
-    animation: gba 20s infinite;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 49% 49%;
+  grid-template-rows: auto;
+  row-gap: 50px;
+  column-gap: 20px;
+  margin-bottom: 20px;
+  background: linear-gradient(
+    135deg,
+    rgb(245, 201, 56),
+    rgb(195, 229, 162),
+    rgba(72, 3, 93, 0.514)
+  );
+  background-size: 200%;
+  animation: gba 20s infinite;
 }
 
-@keyframes gba { 
-    0% {
-      background-position: 0;
-    }
-    50% {
-      background-position: 100%;
-    }
-    100% {
-      background-position: 0;
-    }
+@keyframes gba {
+  0% {
+    background-position: 0;
   }
+  50% {
+    background-position: 100%;
+  }
+  100% {
+    background-position: 0;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .lastpromo {
+    column-gap: 15px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .lastpromo {
+    grid-template-columns: 30% 68%;
+    margin-bottom: 10px;
+    column-gap: 10px;
+    row-gap: 20px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .lastpromo {
+    grid-template-columns: 0 97%;
+    margin-bottom: 10px;
+    column-gap: 5px;
+    row-gap: 5px;
+  }
+}

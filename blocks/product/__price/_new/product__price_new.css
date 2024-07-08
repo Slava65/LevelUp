@@ -1,0 +1,93 @@
+.product__price_new {
+  font-size: 40px;
+  line-height: 42px;
+  animation: 3s linear rotate forwards infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0turn);
+    font-size: 40px;
+  }
+  25% {
+    transform: rotate(0.1turn);
+    font-size: 50px;
+    color: red;
+  }
+  26% {
+    transform: rotate(0.1turn);
+    font-size: 50px;
+    color: red;
+  }
+  51% {
+    transform: rotate(0turn);
+    font-size: 40px;
+  }
+  52% {
+    transform: rotate(0turn);
+    font-size: 40px;
+    color: black;
+  }
+  77% {
+    transform: rotate(-0.1turn);
+    font-size: 50px;
+    color: red;
+  }
+  78% {
+    transform: rotate(-0.1turn);
+    font-size: 50px;
+    color: red;
+  }
+  100% {
+    transform: rotate(0turn);
+    font-size: 40px;
+    color: black;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .product__price_new {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  @keyframes rotate {
+    0% {
+      transform: rotate(0turn);
+      font-size: 20px;
+    }
+    25% {
+      transform: rotate(0.1turn);
+      font-size: 24px;
+      color: red;
+    }
+    26% {
+      transform: rotate(0.1turn);
+      font-size: 24px;
+      color: red;
+    }
+    51% {
+      transform: rotate(0turn);
+      font-size: 20px;
+    }
+    52% {
+      transform: rotate(0turn);
+      font-size: 20px;
+      color: black;
+    }
+    77% {
+      transform: rotate(-0.1turn);
+      font-size: 24px;
+      color: red;
+    }
+    78% {
+      transform: rotate(-0.1turn);
+      font-size: 24px;
+      color: red;
+    }
+    100% {
+      transform: rotate(0turn);
+      font-size: 20px;
+      color: black;
+    }
+  }
+}

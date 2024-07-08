@@ -4,9 +4,27 @@
 @import url("_right-bottom/lines-container__line_right-bottom.css");
 
 .lines-container__line {
-    margin-block-start: 0;
-    margin-block-end: 0;
-    width: 150px;
-    border-width: 3px;
-    border-color: rgb(241, 66, 229);
+  margin-block-start: 0;
+  margin-block-end: 0;
+  width: 150px;
+  border-width: 3px;
+  border-color: rgb(241, 66, 229);
+}
+
+@media screen and (max-width: 1250px) {
+  .lines-container__line {
+    width: 30px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .lines-container__line {
+    width: 5px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .lines-container__line {
+    width: 0;
+  }
 }

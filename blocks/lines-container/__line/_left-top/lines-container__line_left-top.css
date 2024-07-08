@@ -7,3 +7,9 @@
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
 }
+
+@media screen and (max-width: 1250px) {
+  .lines-container__line_left-top {
+    top: -150px;
+  }
+}

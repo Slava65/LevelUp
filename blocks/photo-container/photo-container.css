@@ -1,8 +1,15 @@
 @import url("__item/photo-container__item.css");
 
 .photo-container {
-    width: calc(50% - 50px);
-    display: flex;
-    justify-content: space-around;
-    margin-right: 100px;
+  width: calc(50% - 50px);
+  display: flex;
+  justify-content: space-around;
+  margin-right: 100px;
+}
+
+@media screen and (max-width: 700px) {
+  .photo-container {
+    width: calc(50% - 30px);
+    margin-right: 30px;
+  }
 }

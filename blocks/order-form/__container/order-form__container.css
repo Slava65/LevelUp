@@ -1,0 +1,36 @@
+.order-form__container {
+  display: inline-block;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.order-form__tooltiptext {
+  visibility: hidden;
+}
+
+.order-form__container:focus-within:after {
+  content: attr(data-title);
+  position: absolute;
+  top: 5px;
+  right: 37%;
+  margin-top: -5px;
+  font-family: "Inter", ‘Arial’, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 1250px) {
+  .order-form__container:focus-within:after {
+    right: 28%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .order-form__container:focus-within:after {
+    right: -12%;
+  }
+}

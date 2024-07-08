@@ -1,5 +1,34 @@
 .lastpromo__photo {
-    width: 630px;
-    height: 700px;
-    border-radius: 10px;
+  width: 630px;
+  height: 700px;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 1300px) {
+  .lastpromo__photo {
+    width: 441px;
+    height: 490px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .lastpromo__photo {
+    width: 308px;
+    height: 343px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .lastpromo__photo {
+    width: 154px;
+    height: 171px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .lastpromo__photo {
+    visibility: hidden;
+  }
 }

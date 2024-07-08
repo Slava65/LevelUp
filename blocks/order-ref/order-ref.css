@@ -1,0 +1,6 @@
+@import url("_composition/order-ref_composition.css");
+@import url("_lastpromo/order-ref_lastpromo.css");
+
+.order-ref {
+    align-self: center;
+}

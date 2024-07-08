@@ -1,0 +1,12 @@
+.form-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 400px;
+}
+
+@media screen and (max-width: 400px) {
+  .form-container {
+    flex-direction: column;
+  }
+}

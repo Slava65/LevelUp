@@ -1,0 +1,29 @@
+@import url("__text/order-form__text.css");
+@import url("__user/order-form__user.css");
+@import url("__container/order-form__container.css");
+
+.order-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: calc(50% - 10px);
+}
+
+@media screen and (max-width: 700px) {
+  .order-form {
+    width: calc(70% - 5px);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .order-form {
+    width: calc(60% - 3px);
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .order-form {
+    height: 200px;
+  }
+}

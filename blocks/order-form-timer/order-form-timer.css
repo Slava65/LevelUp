@@ -1,0 +1,254 @@
+.cwrap,
+.cslide {
+  width: 50px;
+  height: 100px;
+  box-sizing: border-box;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.cwrap {
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.cmove-sec {
+  position: relative;
+  bottom: 0;
+  box-sizing: border-box;
+}
+@keyframes countdown-sec {
+  0% {
+    bottom: 0;
+  }
+  9% {
+    bottom: 0;
+  }
+  10% {
+    bottom: 100%;
+  }
+  19% {
+    bottom: 100%;
+  }
+  20% {
+    bottom: 200%;
+  }
+  29% {
+    bottom: 200%;
+  }
+  30% {
+    bottom: 300%;
+  }
+  39% {
+    bottom: 300%;
+  }
+  40% {
+    bottom: 400%;
+  }
+  49% {
+    bottom: 400%;
+  }
+  50% {
+    bottom: 500%;
+  }
+  59% {
+    bottom: 500%;
+  }
+  60% {
+    bottom: 600%;
+  }
+  69% {
+    bottom: 600%;
+  }
+  70% {
+    bottom: 700%;
+  }
+  79% {
+    bottom: 700%;
+  }
+  80% {
+    bottom: 800%;
+  }
+  89% {
+    bottom: 800%;
+  }
+  90% {
+    bottom: 900%;
+  }
+  100% {
+    bottom: 900%;
+  }
+}
+
+.cmove-sec {
+  animation: 11s linear countdown-sec forwards infinite;
+  box-sizing: border-box;
+}
+
+.cmove-ten-sec {
+  position: relative;
+  bottom: 0;
+  box-sizing: border-box;
+}
+@keyframes countdown-ten-sec {
+  0% {
+    bottom: 0;
+  }
+  16.6% {
+    bottom: 0;
+  }
+  17.6% {
+    bottom: 100%;
+  }
+  34.2% {
+    bottom: 100%;
+  }
+  35.2% {
+    bottom: 200%;
+  }
+  51.8% {
+    bottom: 200%;
+  }
+  52.8% {
+    bottom: 300%;
+  }
+  69.4% {
+    bottom: 300%;
+  }
+  70.4% {
+    bottom: 400%;
+  }
+  87% {
+    bottom: 400%;
+  }
+  88% {
+    bottom: 500%;
+  }
+  100% {
+    bottom: 500%;
+  }
+}
+
+.cmove-ten-sec {
+  animation: 63s linear countdown-ten-sec forwards infinite;
+  box-sizing: border-box;
+}
+
+.cmove-min {
+  position: relative;
+  bottom: 0;
+  box-sizing: border-box;
+}
+@keyframes countdown-min {
+  0% {
+    bottom: 0;
+  }
+  9% {
+    bottom: 0;
+  }
+  10% {
+    bottom: 100%;
+  }
+  19% {
+    bottom: 100%;
+  }
+  20% {
+    bottom: 200%;
+  }
+  29% {
+    bottom: 200%;
+  }
+  30% {
+    bottom: 300%;
+  }
+  39% {
+    bottom: 300%;
+  }
+  40% {
+    bottom: 400%;
+  }
+  49% {
+    bottom: 400%;
+  }
+  50% {
+    bottom: 500%;
+  }
+  59% {
+    bottom: 500%;
+  }
+  60% {
+    bottom: 600%;
+  }
+  69% {
+    bottom: 600%;
+  }
+  70% {
+    bottom: 700%;
+  }
+  79% {
+    bottom: 700%;
+  }
+  80% {
+    bottom: 800%;
+  }
+  89% {
+    bottom: 800%;
+  }
+  90% {
+    bottom: 900%;
+  }
+  100% {
+    bottom: 900%;
+  }
+}
+
+.cmove-min {
+  animation: 660s linear countdown-min forwards infinite;
+  box-sizing: border-box;
+}
+
+.cmove-ten-min {
+  position: relative;
+  bottom: 0;
+  box-sizing: border-box;
+}
+@keyframes countdown-ten-min {
+  0% {
+    bottom: 0;
+  }
+  25% {
+    bottom: 0;
+  }
+  26% {
+    bottom: 100%;
+  }
+  51% {
+    bottom: 100%;
+  }
+  52% {
+    bottom: 200%;
+  }
+  77% {
+    bottom: 200%;
+  }
+  78% {
+    bottom: 300%;
+  }
+  100% {
+    bottom: 300%;
+  }
+}
+
+.cmove-ten-min {
+  animation: 1800s linear countdown-ten-min forwards infinite;
+  box-sizing: border-box;
+}
+
+.cslide {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rgba(184, 20, 20, 0.818);
+  font-size: 5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}

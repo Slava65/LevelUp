@@ -1,8 +1,25 @@
 .composition {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 20px;
-    min-height: 1000px;
-    background: linear-gradient(to bottom right, rgb(245, 201, 56), rgb(172, 224, 123), rgb(241, 66, 229));
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  min-height: 1000px;
+  background: linear-gradient(
+    to bottom right,
+    rgb(245, 201, 56),
+    rgb(172, 224, 123),
+    rgba(72, 3, 93, 0.503)
+  );
+}
+
+@media screen and (max-width: 1250px) {
+  .composition {
+    min-height: 600px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .composition {
+    margin-bottom: 10px;
+  }
 }

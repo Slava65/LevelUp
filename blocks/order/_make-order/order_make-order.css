@@ -1,0 +1,10 @@
+.order_make-order {
+  align-self: flex-start;
+  margin-left: 60px;
+}
+
+@media screen and (max-width: 900px) {
+  .order_make-order {
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,17 @@
+@import url("__picture/product__picture.css");
+@import url("__price/product__price.css");
+
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(50% - 10px);
+}
+
+@media screen and (max-width: 550px) {
+  .product {
+    width: 30%
+
+  }
+}

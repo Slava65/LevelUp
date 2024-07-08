@@ -17,3 +17,11 @@
 @import url("../blocks/carousel/carousel.css");
 @import url("../blocks/feedback/feedback.css");
 @import url("../blocks/lastpromo/lastpromo.css");
+@import url("../blocks/title/header__title.css");
+@import url("../blocks/make-order/make-order.css");
+@import url("../blocks/order-form-timer/order-form-timer.css");
+@import url("../blocks/form-container/form-container.css");
+@import url("../blocks/product/product.css");
+@import url("../blocks/order-form/order-form.css");
+@import url("../blocks/timer/timer.css");
+@import url("../blocks/order-ref/order-ref.css");

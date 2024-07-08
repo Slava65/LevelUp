@@ -1,0 +1,14 @@
+.make-order {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 50px;
+  background: linear-gradient(
+    to bottom right,
+    rgb(245, 201, 56),
+    rgb(172, 224, 123),
+    rgba(72, 3, 93, 0.503)
+  );
+}

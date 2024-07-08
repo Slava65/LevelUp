@@ -1,19 +1,37 @@
 @import url("_composition/order_composition.css");
 @import url("_lastpromo/order_lastpromo.css");
-
+@import url("_make-order/order_make-order.css");
 
 .order {
-    padding-block: 0;
-    padding-inline: 0;
-    width: 300px;
-    height: 50px;
-    border-radius: 7px;
-    border-width: 2px;
-    align-self: center;
-    border-color: rgb(147, 70, 206);
-    background-color: rgb(172, 224, 123);
-    font-family: 'Inter', ‘Arial’, sans-serif;
+  padding-block: 0;
+  padding-inline: 0;
+  width: 300px;
+  height: 50px;
+  border-radius: 7px;
+  border-width: 2px;
+  border-color: rgb(147, 70, 206);
+  background-color: rgb(172, 224, 123);
+  font-family: "Inter", ‘Arial’, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+
+@media screen and (max-width: 900px) {
+  .order {
+    width: 200px;
+    height: 40px;
+    font-family: "Inter", ‘Arial’, sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .order {
+    width: 100px;
+    height: 30px;
+  }
 }

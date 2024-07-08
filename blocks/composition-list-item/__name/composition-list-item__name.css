@@ -1,10 +1,17 @@
 .composition-list-item__name {
-    margin-block-start: 0;
-    margin-block-end: 0;
-    font-family: 'Inter', ‘Arial’, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 20px;
-    text-align: center;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-family: "Inter", ‘Arial’, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 550px) {
+  .composition-list-item__name {
+    font-size: 14px;
+    line-height: 14px;
+  }
 }

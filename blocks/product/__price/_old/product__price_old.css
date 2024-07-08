@@ -1,0 +1,13 @@
+.product__price_old {
+  text-decoration: line-through;
+  font-size: 30px;
+  line-height: 32px;
+  color: #000000a1;
+}
+
+@media screen and (max-width: 550px) {
+  .product__price_old {
+    font-size: 16px;
+    line-height: 16px;
+  }
+}

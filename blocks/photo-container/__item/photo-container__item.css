@@ -1,4 +1,11 @@
 .photo-container__item {
-    width: 291px;
-    height: 451px;
+  width: 291px;
+  height: 451px;
+}
+
+@media screen and (max-width: 700px) {
+  .photo-container__item {
+    width: 145px;
+    height: 225px;
+  }
 }
