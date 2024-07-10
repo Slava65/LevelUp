@@ -6,6 +6,8 @@
   -webkit-transform: rotate(-45deg);
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
+  width: 200px;
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 1250px) {

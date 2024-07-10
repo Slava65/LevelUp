@@ -1,8 +1,15 @@
 .video {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-
-    z-index: -9999;
-    object-fit: cover;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -9999;
+  width: 100%;
+  height: calc(100% + 90px);
+  object-fit: cover;
 }
+
+@media screen and (max-width: 950px) {
+    .video  {
+        height: calc(100% + 120px);
+    }
+  }

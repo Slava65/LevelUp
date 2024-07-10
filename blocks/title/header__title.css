@@ -4,12 +4,22 @@
   font-family: "Inter", ‘Arial’, sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 48px;
+  font-size: 40px;
   text-align: center;
   color: rgb(72, 3, 93);
-  line-height: 50px;
+  line-height: 90px;
   margin: 0 auto;
+  /* background-color: rgba(131, 139, 161, 0.604); */
 }
+
+@media screen and (max-width: 950px) {
+  .title {
+    font-size: 36px;
+    line-height: 38px;
+    margin: 20px auto;
+  }
+}
+
 
 @media screen and (max-width: 700px) {
   .title {

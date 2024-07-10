@@ -7,3 +7,11 @@
     flex-direction: column;
     justify-content: space-around;
 }
+
+@media screen and (max-width: 700px) {
+    .advantages {
+      width: calc(50% - 10px);
+      margin-right: 10px;
+    }
+  }
+  

@@ -3,9 +3,23 @@
   height: 451px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 950px) {
+  .photo-container__item {
+    width: 204px;
+    height: 316px;
+  }
+}
+
+@media screen and (max-width: 800px) {
   .photo-container__item {
     width: 145px;
     height: 225px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .photo-container__item {
+    width: 101px;
+    height: 157px;
   }
 }
